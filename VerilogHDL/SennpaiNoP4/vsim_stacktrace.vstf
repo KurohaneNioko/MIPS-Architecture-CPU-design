@@ -1,0 +1,18 @@
+# Current time Fri Apr 04 03:27:02 2014
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.2c"
+# Version = "2013.07"
+# Date = "Jul 18 2013"
+# Platform = win32
+# 0    0x007e7b84: '<unknown (@0x7e7b84)>'
+# 1    0x007ea010: '<unknown (@0x7ea010)>'
+# 2    0x1000e054: 'Tcl_ListMathFuncs + 0x444' in 'f:\modelsim10.2c\win32\tcl85.dll'
+# 3    0x1000ecba: 'Tcl_EvalEx + 0x7da' in 'f:\modelsim10.2c\win32\tcl85.dll'
+# 4    0x1000e500: 'Tcl_EvalEx + 0x20' in 'f:\modelsim10.2c\win32\tcl85.dll'
+# 5    0x00aaae39: '<unknown (@0xaaae39)>'
+# 6    0x1005fb86: 'Tcl_NotifyChannel + 0x136' in 'f:\modelsim10.2c\win32\tcl85.dll'
+# 7    0x100aab09: 'TclpHasSockets + 0x379' in 'f:\modelsim10.2c\win32\tcl85.dll'
+# End of Stack Trace
+
+

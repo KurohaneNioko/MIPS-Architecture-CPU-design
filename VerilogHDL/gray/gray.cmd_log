@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/gray/gray.xst" -ofn "F:/Programming Projects/VHDL/gray/gray.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/gray/gray.xst" -ofn "F:/Programming Projects/VHDL/gray/gray.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/gray/gray.xst" -ofn "F:/Programming Projects/VHDL/gray/gray.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/gray/gray.xst" -ofn "F:/Programming Projects/VHDL/gray/gray.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/gray/gray.xst" -ofn "F:/Programming Projects/VHDL/gray/gray.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "gray.ngc" gray.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gray_map.ncd gray.ngd gray.pcf 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/gray/gray.xst" -ofn "F:/Programming Projects/VHDL/gray/gray.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "gray.ngc" gray.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gray_map.ncd gray.ngd gray.pcf 
+par -w -intstyle ise -ol high -mt off gray_map.ncd gray.ncd gray.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml gray.twx gray.ncd -o gray.twr gray.pcf 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/gray/gray.xst" -ofn "F:/Programming Projects/VHDL/gray/gray.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "gray.ngc" gray.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gray_map.ncd gray.ngd gray.pcf 
+par -w -intstyle ise -ol high -mt off gray_map.ncd gray.ncd gray.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml gray.twx gray.ncd -o gray.twr gray.pcf 

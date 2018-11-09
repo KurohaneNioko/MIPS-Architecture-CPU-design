@@ -1,0 +1,3 @@
+`define CLK_FRQ             100000
+`define CYCLE               (10000000/`CLK_FRQ) //1000000000
+`timescale  1ns/1ns

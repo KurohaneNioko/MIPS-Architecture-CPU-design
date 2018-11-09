@@ -1,0 +1,78 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/tb_isim_beh.exe" -prj "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/tb_beh.prj" "work.tb" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/StallUnit.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/Res_W.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/Res_M.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/Res_E.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/ForwardUnit.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/WriteBack.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/RF.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/PC.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/NPC.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/MultAndDiv.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/Memory.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/IM.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/HazardUnit.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/EXT.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/Execute.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/ExcD.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/DM.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/Decode.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/Coprocessor0.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/ControlUnit_W.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/ControlUnit_M.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/ControlUnit_E.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/ControlUnit_D.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/CMP.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/ALU.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/NormalDatapath.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/COCOTimerCounter.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/Bridge.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/mips.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/tb.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 105316 KB
+Fuse CPU Usage: 514 ms
+Compiling module PC
+Compiling module IM
+Compiling module Decode
+Compiling module ControlUnit_D
+Compiling module Exc
+Compiling module RF
+Compiling module NPC
+Compiling module CMP
+Compiling module EXT
+Compiling module Execute
+Compiling module ControlUnit_E
+Compiling module ALU
+Compiling module MultAndDiv
+Compiling module Memory
+Compiling module ControlUnit_M
+Compiling module DM
+Compiling module Coprocessor0
+Compiling module WriteBack
+Compiling module ControlUnit_W
+Compiling module StallUnit
+Compiling module ForwardUnit
+Compiling module ResE
+Compiling module ResM
+Compiling module ResW
+Compiling module HazardUnit
+Compiling module NormalDatapath
+Compiling module Bridge
+Compiling module COCOTimerCounter
+Compiling module COCOTimerCounter(base=32'b011111...
+Compiling module mips
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 21 sub-compilation(s) to finish...
+Compiled 32 Verilog Units
+Built simulation executable F:/ProgrammingProjects/VerilogHDL/P7-MIPSMicroSYS/tb_isim_beh.exe
+Fuse Memory Usage: 113172 KB
+Fuse CPU Usage: 1559 ms

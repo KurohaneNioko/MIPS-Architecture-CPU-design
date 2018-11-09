@@ -1,0 +1,28 @@
+Command line:
+   ahua_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  24754
+
+Mon Nov 06 19:11:31 2017
+
+
+ Elaboration Time: 0.1092 sec
+
+ Current Memory Usage: 659.46 Meg
+
+ Total Signals          : 21
+ Total Nets             : 49
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 165
+
+ Total Simulation Time: 0.998406 sec
+
+ Current Memory Usage: 659.46 Meg
+
+Mon Nov 06 19:14:09 2017
+

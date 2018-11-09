@@ -1,0 +1,41 @@
+Running: E:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/ProgrammingProjects/VHDL/DZHP4/tb_isim_beh.exe -prj F:/ProgrammingProjects/VHDL/DZHP4/tb_beh.prj work.tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/ProgrammingProjects/VHDL/DZHP4/pc.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VHDL/DZHP4/mux2.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VHDL/DZHP4/IM.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VHDL/DZHP4/GRF.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VHDL/DZHP4/EXT.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VHDL/DZHP4/DM.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VHDL/DZHP4/Control_Unit.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VHDL/DZHP4/ALU.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VHDL/DZHP4/mips.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VHDL/DZHP4/tb.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "F:/ProgrammingProjects/VHDL/DZHP4/mips.v" Line 52: Port d3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/ProgrammingProjects/VHDL/DZHP4/mips.v" Line 58: Port d3 is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 101340 KB
+Fuse CPU Usage: 436 ms
+Compiling module PC
+Compiling module mux4
+Compiling module IM
+Compiling module Control_Unit
+Compiling module GRF
+Compiling module mux4(WIDTH=5)
+Compiling module ALU
+Compiling module mux2
+Compiling module EXT
+Compiling module DM
+Compiling module mips
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable F:/ProgrammingProjects/VHDL/DZHP4/tb_isim_beh.exe
+Fuse Memory Usage: 107788 KB
+Fuse CPU Usage: 654 ms

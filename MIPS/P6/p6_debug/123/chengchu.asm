@@ -1,0 +1,10 @@
+#test cal_r
+ori $1,$1,213
+ori $2,$2,343
+mult $1,$2
+mfhi $3
+mflo $4
+mthi $1
+mfhi $1
+mflo $2
+mtlo $2

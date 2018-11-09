@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/Programming Projects/VHDL/Counter/Test2_isim_beh.exe" -prj "F:/Programming Projects/VHDL/Counter/Test2_beh.prj" "work.Test2" "work.glbl" 

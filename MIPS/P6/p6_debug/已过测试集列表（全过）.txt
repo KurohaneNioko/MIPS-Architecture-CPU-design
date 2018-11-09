@@ -1,0 +1,34 @@
+MostNBTest.asm
+alu_new.txt
+b.txt
+lb.txt
+聚众，综合.txt	//跟其中某个测试集重复
+
+/123	//该目录下所有指令已全部通过
+branch.asm
+chengchu.asm
+code.txt
+function.asm
+mul.asm
+test_func.asm
+test_func_2.asm无效
+x梅csc.asm
+zhandian.asm
+高渝路load _store测试.asm
+高渝路乘除法测试.asm
+高渝路跳转测试.asm
+李璠嘉Part1.asm //主要是乘除以外
+李璠嘉Part2.asm //主要是乘除
+刘杰所有指令功能测试.asm
+
+/新建文件夹
+已将finaltest.asm中bgezal循环部分注释掉并通过
+me.asm
+testcal_i.txt
+testcal_r.txt
+testload.txt
+teststore.txt
+test1.asm
+test2.asm
+test3.asm
+test4.asm

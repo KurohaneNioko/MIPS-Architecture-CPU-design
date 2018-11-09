@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/ProgrammingProjects/VerilogHDL/P4-SingleCycleCPU/tb_alu_isim_beh.exe" -prj "F:/ProgrammingProjects/VerilogHDL/P4-SingleCycleCPU/tb_alu_beh.prj" "work.tb_alu" "work.glbl" 

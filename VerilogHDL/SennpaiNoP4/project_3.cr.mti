@@ -1,0 +1,99 @@
+F:/modelsim10.2c/Project/head.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/head.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+
+} {} {}} F:/modelsim10.2c/Project/PC_count.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/PC_count.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module PC_count
+
+Top level modules:
+	PC_count
+
+} {} {}} F:/modelsim10.2c/Project/top.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/top.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} F:/modelsim10.2c/Project/im.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/im.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module im_4k
+
+Top level modules:
+	im_4k
+
+} {} {}} F:/modelsim10.2c/Project/mips.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/mips.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} F:/modelsim10.2c/Project/ext.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/ext.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} F:/modelsim10.2c/Project/dm.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/dm.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module dm_4
+
+Top level modules:
+	dm_4
+
+} {} {}} F:/modelsim10.2c/Project/ALU.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/ALU.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} F:/modelsim10.2c/Project/Mux.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/Mux.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Mux2_MemtoReg
+-- Compiling module Mux2_RegDst
+-- Compiling module Mux2_AluSrc
+
+Top level modules:
+	Mux2_MemtoReg
+	Mux2_RegDst
+	Mux2_AluSrc
+
+} {} {}} F:/modelsim10.2c/Project/Ctl.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/Ctl.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module ctr
+
+Top level modules:
+	ctr
+
+} {} {}} F:/modelsim10.2c/Project/PC.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/PC.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Pc
+
+Top level modules:
+	Pc
+
+} {} {}} F:/modelsim10.2c/Project/datapath.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/datapath.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} F:/modelsim10.2c/Project/testbench.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/testbench.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} F:/modelsim10.2c/Project/GPR.v {1 {vlog -work work -vopt F:/modelsim10.2c/Project/GPR.v
+Model Technology ModelSim SE vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module gpr
+
+Top level modules:
+	gpr
+
+} {} {}}

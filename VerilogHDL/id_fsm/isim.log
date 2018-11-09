@@ -1,0 +1,88 @@
+ISim log file
+Running: F:\ProgrammingProjects\VHDL\id_fsm\id_fsmTB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/ProgrammingProjects/VHDL/id_fsm/id_fsmTB_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# step
+Simulator is doing circuit initialization process.
+Stopped at time : 0 fs : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 31
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 16
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 48
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 49
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 50
+# step
+Stopped at time : 0 fs : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 27
+# step
+Stopped at time : 0 fs : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 28
+# step
+Stopped at time : 0 fs : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 29
+# step
+Stopped at time : 0 fs : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsmTB.v" Line 41
+# step
+Stopped at time : 0 fs : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsmTB.v" Line 43
+# step
+Stopped at time : 0 fs : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsmTB.v" Line 44
+# step
+Stopped at time : 0 fs : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsmTB.v" Line 45
+# step
+Stopped at time : 0 fs : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsmTB.v" Line 64
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 52
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 53
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 54
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 55
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 60
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 61
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 62
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 16
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 48
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 50
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 49
+# step
+Finished circuit initialization process.
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 63
+# step
+Stopped at time : 0 fs : File "E:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v" Line 49
+# run all
+Stopped at time : 5 ns : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 33
+# run all
+Stopped at time : 15 ns : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 37
+# run all
+Stopped at time : 25 ns : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 37
+# run all
+Stopped at time : 25 ns : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 42
+# run all
+Stopped at time : 25 ns : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 42
+# run all
+Stopped at time : 35 ns : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 51
+# run all
+Stopped at time : 35 ns : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 56
+# run all
+Stopped at time : 35 ns : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 56
+# run all
+Stopped at time : 45 ns : File "F:/ProgrammingProjects/VHDL/id_fsm/id_fsm.v" Line 51

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/MatrixFastPower4Fibonacci/source.xst" -ofn "F:/Programming Projects/VHDL/MatrixFastPower4Fibonacci/source.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/MatrixFastPower4Fibonacci/source.xst" -ofn "F:/Programming Projects/VHDL/MatrixFastPower4Fibonacci/source.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/MatrixFastPower4Fibonacci/source.xst" -ofn "F:/Programming Projects/VHDL/MatrixFastPower4Fibonacci/source.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "source.ngc" source.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o source_map.ncd source.ngd source.pcf 
+par -w -intstyle ise -ol high -mt off source_map.ncd source.ncd source.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml source.twx source.ncd -o source.twr source.pcf 

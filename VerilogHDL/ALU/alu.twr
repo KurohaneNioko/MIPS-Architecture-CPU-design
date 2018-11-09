@@ -1,0 +1,285 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml alu.twx alu.ncd -o alu.twr alu.pcf
+
+Design file:              alu.ncd
+Physical constraint file: alu.pcf
+Device,package,speed:     xc6slx150,fgg676,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock ALUOp<1>
+------------+------------+------------+------------+------------+------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                              | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)             | Phase  |
+------------+------------+------------+------------+------------+------------------------------+--------+
+A<0>        |    7.082(F)|      SLOW  |   -0.095(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<1>        |    6.889(F)|      SLOW  |    0.330(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<2>        |    7.454(F)|      SLOW  |   -0.487(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<3>        |    7.549(F)|      SLOW  |   -1.107(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<4>        |    7.311(F)|      SLOW  |   -0.888(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<5>        |    6.494(F)|      SLOW  |    0.048(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<6>        |    7.293(F)|      SLOW  |   -0.764(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<7>        |    5.929(F)|      SLOW  |    0.244(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<8>        |    7.728(F)|      SLOW  |   -1.722(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<9>        |    6.703(F)|      SLOW  |   -0.751(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<10>       |    7.382(F)|      SLOW  |   -0.999(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<11>       |    8.303(F)|      SLOW  |   -0.639(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<12>       |    7.323(F)|      SLOW  |   -0.377(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<13>       |    7.433(F)|      SLOW  |   -0.124(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<14>       |    8.476(F)|      SLOW  |   -0.594(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<15>       |    7.342(F)|      SLOW  |   -0.057(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<16>       |    7.672(F)|      SLOW  |   -0.446(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<17>       |    6.661(F)|      SLOW  |    0.573(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<18>       |    7.983(F)|      SLOW  |   -0.025(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<19>       |    7.302(F)|      SLOW  |    0.761(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<20>       |    6.922(F)|      SLOW  |    0.852(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<21>       |    6.720(F)|      SLOW  |    1.185(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<22>       |    6.398(F)|      SLOW  |    1.287(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<23>       |    6.779(F)|      SLOW  |    1.302(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<24>       |    6.395(F)|      SLOW  |    1.329(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<25>       |    6.444(F)|      SLOW  |    1.177(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<26>       |    6.644(F)|      SLOW  |    1.462(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<27>       |    6.347(F)|      SLOW  |    1.509(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<28>       |    6.402(F)|      SLOW  |    2.213(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<29>       |    6.172(F)|      SLOW  |    1.759(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<30>       |    7.382(F)|      SLOW  |    1.297(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<31>       |    6.229(F)|      SLOW  |    2.385(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+ALUOp<0>    |    5.511(F)|      SLOW  |    0.737(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<0>        |    7.974(F)|      SLOW  |    2.203(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<1>        |    8.075(F)|      SLOW  |    1.058(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<2>        |    6.150(F)|      SLOW  |    2.343(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<3>        |    6.868(F)|      SLOW  |    2.047(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<4>        |    5.164(F)|      SLOW  |    2.094(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<5>        |    4.884(F)|      SLOW  |    1.866(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<6>        |    4.587(F)|      SLOW  |    1.116(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<7>        |    4.808(F)|      SLOW  |    1.255(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<8>        |    5.268(F)|      SLOW  |    1.232(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<9>        |    6.797(F)|      SLOW  |    0.198(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<10>       |    5.819(F)|      SLOW  |    0.678(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<11>       |    5.088(F)|      SLOW  |    1.141(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<12>       |    6.602(F)|      SLOW  |    0.255(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<13>       |    5.728(F)|      SLOW  |    0.783(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<14>       |    5.593(F)|      SLOW  |    1.674(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<15>       |    6.676(F)|      SLOW  |    0.639(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<16>       |    6.918(F)|      SLOW  |   -0.044(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<17>       |    6.181(F)|      SLOW  |    0.621(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<18>       |    7.267(F)|      SLOW  |    0.740(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<19>       |    6.826(F)|      SLOW  |    0.106(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<20>       |    7.163(F)|      SLOW  |   -0.189(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<21>       |    5.306(F)|      SLOW  |    0.488(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<22>       |    6.808(F)|      SLOW  |   -0.596(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<23>       |    6.355(F)|      SLOW  |    0.486(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<24>       |    8.215(F)|      SLOW  |   -0.574(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<25>       |    7.432(F)|      SLOW  |   -0.253(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<26>       |    6.504(F)|      SLOW  |   -0.436(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<27>       |    6.095(F)|      SLOW  |    0.223(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<28>       |    6.835(F)|      SLOW  |    0.183(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<29>       |    5.075(F)|      SLOW  |   -0.034(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<30>       |    6.185(F)|      SLOW  |    0.033(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<31>       |    6.163(F)|      SLOW  |   -0.230(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+------------+------------+------------+------------+------------+------------------------------+--------+
+
+Setup/Hold to clock ALUOp<2>
+------------+------------+------------+------------+------------+------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                              | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)             | Phase  |
+------------+------------+------------+------------+------------+------------------------------+--------+
+A<0>        |    6.912(F)|      SLOW  |    0.082(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<1>        |    6.719(F)|      SLOW  |    0.507(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<2>        |    7.284(F)|      SLOW  |   -0.310(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<3>        |    7.379(F)|      SLOW  |   -0.930(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<4>        |    7.141(F)|      SLOW  |   -0.711(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<5>        |    6.324(F)|      SLOW  |    0.225(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<6>        |    7.123(F)|      SLOW  |   -0.587(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<7>        |    5.759(F)|      SLOW  |    0.421(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<8>        |    7.558(F)|      SLOW  |   -1.545(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<9>        |    6.533(F)|      SLOW  |   -0.574(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<10>       |    7.212(F)|      SLOW  |   -0.822(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<11>       |    8.133(F)|      SLOW  |   -0.462(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<12>       |    7.153(F)|      SLOW  |   -0.200(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<13>       |    7.263(F)|      SLOW  |    0.053(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<14>       |    8.306(F)|      SLOW  |   -0.417(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<15>       |    7.172(F)|      SLOW  |    0.120(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<16>       |    7.502(F)|      SLOW  |   -0.269(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<17>       |    6.491(F)|      SLOW  |    0.750(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<18>       |    7.813(F)|      SLOW  |    0.152(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<19>       |    7.132(F)|      SLOW  |    0.938(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<20>       |    6.752(F)|      SLOW  |    1.029(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<21>       |    6.550(F)|      SLOW  |    1.362(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<22>       |    6.228(F)|      SLOW  |    1.464(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<23>       |    6.609(F)|      SLOW  |    1.479(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<24>       |    6.225(F)|      SLOW  |    1.506(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<25>       |    6.274(F)|      SLOW  |    1.354(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<26>       |    6.474(F)|      SLOW  |    1.639(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<27>       |    6.177(F)|      SLOW  |    1.686(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<28>       |    6.232(F)|      SLOW  |    2.390(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<29>       |    6.002(F)|      SLOW  |    1.936(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<30>       |    7.212(F)|      SLOW  |    1.474(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+A<31>       |    6.059(F)|      SLOW  |    2.562(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+ALUOp<0>    |    5.341(F)|      SLOW  |    0.914(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<0>        |    7.804(F)|      SLOW  |    2.380(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<1>        |    7.905(F)|      SLOW  |    1.235(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<2>        |    5.980(F)|      SLOW  |    2.520(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<3>        |    6.698(F)|      SLOW  |    2.224(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<4>        |    4.994(F)|      SLOW  |    2.271(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<5>        |    4.714(F)|      SLOW  |    2.043(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<6>        |    4.417(F)|      SLOW  |    1.293(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<7>        |    4.638(F)|      SLOW  |    1.432(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<8>        |    5.098(F)|      SLOW  |    1.409(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<9>        |    6.627(F)|      SLOW  |    0.375(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<10>       |    5.649(F)|      SLOW  |    0.855(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<11>       |    4.918(F)|      SLOW  |    1.318(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<12>       |    6.432(F)|      SLOW  |    0.432(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<13>       |    5.558(F)|      SLOW  |    0.960(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<14>       |    5.423(F)|      SLOW  |    1.851(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<15>       |    6.506(F)|      SLOW  |    0.816(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<16>       |    6.748(F)|      SLOW  |    0.133(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<17>       |    6.011(F)|      SLOW  |    0.798(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<18>       |    7.097(F)|      SLOW  |    0.917(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<19>       |    6.656(F)|      SLOW  |    0.283(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<20>       |    6.993(F)|      SLOW  |   -0.012(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<21>       |    5.136(F)|      SLOW  |    0.665(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<22>       |    6.638(F)|      SLOW  |   -0.419(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<23>       |    6.185(F)|      SLOW  |    0.663(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<24>       |    8.045(F)|      SLOW  |   -0.397(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<25>       |    7.262(F)|      SLOW  |   -0.076(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<26>       |    6.334(F)|      SLOW  |   -0.259(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<27>       |    5.925(F)|      SLOW  |    0.400(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<28>       |    6.665(F)|      SLOW  |    0.360(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<29>       |    4.905(F)|      SLOW  |    0.143(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<30>       |    6.015(F)|      SLOW  |    0.210(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+B<31>       |    5.993(F)|      SLOW  |   -0.053(F)|      SLOW  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+------------+------------+------------+------------+------------+------------------------------+--------+
+
+Clock ALUOp<1> to Pad
+------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                              | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)             | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+C<0>        |        17.517(F)|      SLOW  |         8.004(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<1>        |        17.517(F)|      SLOW  |         8.004(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<2>        |        17.523(F)|      SLOW  |         8.010(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<3>        |        17.523(F)|      SLOW  |         8.010(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<4>        |        17.525(F)|      SLOW  |         8.012(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<5>        |        17.525(F)|      SLOW  |         8.012(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<6>        |        17.531(F)|      SLOW  |         8.018(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<7>        |        17.531(F)|      SLOW  |         8.018(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<8>        |        17.526(F)|      SLOW  |         8.013(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<9>        |        17.526(F)|      SLOW  |         8.013(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<10>       |        17.521(F)|      SLOW  |         8.008(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<11>       |        17.521(F)|      SLOW  |         8.008(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<12>       |        17.519(F)|      SLOW  |         8.006(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<13>       |        17.519(F)|      SLOW  |         8.006(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<14>       |        17.524(F)|      SLOW  |         8.011(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<15>       |        17.524(F)|      SLOW  |         8.011(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<16>       |        17.530(F)|      SLOW  |         8.017(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<17>       |        17.530(F)|      SLOW  |         8.017(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<18>       |        17.532(F)|      SLOW  |         8.019(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<19>       |        17.532(F)|      SLOW  |         8.019(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<20>       |        17.613(F)|      SLOW  |         8.100(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<21>       |        17.613(F)|      SLOW  |         8.100(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<22>       |        17.609(F)|      SLOW  |         8.096(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<23>       |        17.609(F)|      SLOW  |         8.096(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<24>       |        17.603(F)|      SLOW  |         8.090(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<25>       |        17.603(F)|      SLOW  |         8.090(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<26>       |        17.603(F)|      SLOW  |         8.090(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<27>       |        17.603(F)|      SLOW  |         8.090(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<28>       |        17.774(F)|      SLOW  |         8.261(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<29>       |        17.787(F)|      SLOW  |         8.274(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<30>       |        17.783(F)|      SLOW  |         8.270(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<31>       |        17.787(F)|      SLOW  |         8.274(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+
+Clock ALUOp<2> to Pad
+------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                              | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)             | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+C<0>        |        17.694(F)|      SLOW  |         8.093(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<1>        |        17.694(F)|      SLOW  |         8.093(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<2>        |        17.700(F)|      SLOW  |         8.099(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<3>        |        17.700(F)|      SLOW  |         8.099(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<4>        |        17.702(F)|      SLOW  |         8.101(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<5>        |        17.702(F)|      SLOW  |         8.101(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<6>        |        17.708(F)|      SLOW  |         8.107(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<7>        |        17.708(F)|      SLOW  |         8.107(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<8>        |        17.703(F)|      SLOW  |         8.102(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<9>        |        17.703(F)|      SLOW  |         8.102(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<10>       |        17.698(F)|      SLOW  |         8.097(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<11>       |        17.698(F)|      SLOW  |         8.097(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<12>       |        17.696(F)|      SLOW  |         8.095(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<13>       |        17.696(F)|      SLOW  |         8.095(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<14>       |        17.701(F)|      SLOW  |         8.100(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<15>       |        17.701(F)|      SLOW  |         8.100(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<16>       |        17.707(F)|      SLOW  |         8.106(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<17>       |        17.707(F)|      SLOW  |         8.106(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<18>       |        17.709(F)|      SLOW  |         8.108(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<19>       |        17.709(F)|      SLOW  |         8.108(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<20>       |        17.790(F)|      SLOW  |         8.189(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<21>       |        17.790(F)|      SLOW  |         8.189(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<22>       |        17.786(F)|      SLOW  |         8.185(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<23>       |        17.786(F)|      SLOW  |         8.185(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<24>       |        17.780(F)|      SLOW  |         8.179(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<25>       |        17.780(F)|      SLOW  |         8.179(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<26>       |        17.780(F)|      SLOW  |         8.179(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<27>       |        17.780(F)|      SLOW  |         8.179(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<28>       |        17.951(F)|      SLOW  |         8.350(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<29>       |        17.964(F)|      SLOW  |         8.363(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<30>       |        17.960(F)|      SLOW  |         8.359(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+C<31>       |        17.964(F)|      SLOW  |         8.363(F)|      FAST  |ALUOp[2]_GND_4_o_Mux_12_o_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+
+Clock to Setup on destination clock ALUOp<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ALUOp<1>       |         |         |    6.319|    6.319|
+ALUOp<2>       |         |         |    5.961|    5.961|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ALUOp<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ALUOp<1>       |         |         |    6.149|    6.149|
+ALUOp<2>       |         |         |    5.791|    5.791|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sun Nov 05 17:39:07 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 284 MB
+
+
+

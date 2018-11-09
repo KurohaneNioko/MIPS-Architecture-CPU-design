@@ -1,0 +1,28 @@
+Command line:
+   CodeTestFixture_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  38511
+
+Sun Oct 22 00:34:45 2017
+
+
+ Elaboration Time: 0.078001 sec
+
+ Current Memory Usage: 658.739 Meg
+
+ Total Signals          : 21
+ Total Nets             : 145
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 26
+ Total Scalar Nets and Variables : 485
+
+ Total Simulation Time: 0.218401 sec
+
+ Current Memory Usage: 659.788 Meg
+
+Sun Oct 22 00:35:01 2017
+

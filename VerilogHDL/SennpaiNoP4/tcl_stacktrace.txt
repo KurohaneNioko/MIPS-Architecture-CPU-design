@@ -1,0 +1,26 @@
+Thu Apr 03 15:18:26 CST 2014
+Trace back: can't read "Project(EchoCompileOutput)": no such element in array
+    while executing
+"lappend ProjectWriteArgs	$Project(EchoCompileOutput)"
+    (procedure "Project::saveProjectSpecificSettings" line 26)
+    invoked from within
+"Project::saveProjectSpecificSettings"
+    (procedure "quit" line 58)
+    invoked from within
+"quit"
+    (command for "WM_DELETE_WINDOW" window manager protocol)
+  <2:F:/modelsim10.2c/tcl/tk8.5/bgerror.tcl:92: ::tkerror {can't read "Project(EchoCompileOutput)": no such element in array}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "Project(EchoCompileOutput)": no such element in array}
+Thu Apr 03 20:23:36 CST 2014
+Trace back: can't read "data(realized)": no such variable
+    while executing
+"if {$data(realized) && $data(vsb,present)} {
+        set grid $path._grid
+        if {$data(vsb,auto)} {
+            if {$data(vsb,packed) && $vmin ==..."
+    (procedure "CustomScrolledText::_set_vscroll" line 9)
+    invoked from within
+"CustomScrolledText::_set_vscroll .main_pane.source8.interior.cs.body.editor.cs.panedWindow.f1.frame.paned.f0.frame.sw 0.0 1.0"
+    (vertical scrolling command executed by text)
+  <2:F:/modelsim10.2c/tcl/tk8.5/bgerror.tcl:92: ::tkerror {can't read "data(realized)": no such variable}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "data(realized)": no such variable}

@@ -1,0 +1,21 @@
+Running: E:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/ProgrammingProjects/VerilogHDL/P4-SingleCycleCPU/tb_alu_isim_beh.exe -prj F:/ProgrammingProjects/VerilogHDL/P4-SingleCycleCPU/tb_alu_beh.prj work.tb_alu work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P4-SingleCycleCPU/ALU.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P4-SingleCycleCPU/tb_alu.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 104932 KB
+Fuse CPU Usage: 342 ms
+Compiling module ALU
+Compiling module tb_alu
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable F:/ProgrammingProjects/VerilogHDL/P4-SingleCycleCPU/tb_alu_isim_beh.exe
+Fuse Memory Usage: 109524 KB
+Fuse CPU Usage: 405 ms

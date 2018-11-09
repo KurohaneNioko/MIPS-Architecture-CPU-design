@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Splitter_32BitTo4Bit8/splitter.xst" -ofn "F:/Programming Projects/VHDL/Splitter_32BitTo4Bit8/splitter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "splitter.ngc" splitter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o splitter_map.ncd splitter.ngd splitter.pcf 
+par -w -intstyle ise -ol high -mt off splitter_map.ncd splitter.ncd splitter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml splitter.twx splitter.ncd -o splitter.twr splitter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml splitter_preroute.twx splitter_map.ncd -o splitter_preroute.twr splitter.pcf 

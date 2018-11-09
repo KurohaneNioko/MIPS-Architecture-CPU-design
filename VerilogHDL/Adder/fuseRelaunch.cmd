@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/Programming Projects/VHDL/Adder/AdderTest_isim_beh.exe" -prj "F:/Programming Projects/VHDL/Adder/AdderTest_beh.prj" "work.AdderTest" "work.glbl" 

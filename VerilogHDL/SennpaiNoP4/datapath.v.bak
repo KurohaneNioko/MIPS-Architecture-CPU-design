@@ -1,0 +1,30 @@
+module datapath( clk , reset , RegDst , AluSrc , MemtoReg , RegWrite , MemWrite , IBeq ,
+Ext_op , AluCtr , IM , ReadData , ALU_O , WriteData , pc);
+input clk ,reset , RegDst , AluSrc , MemtoReg , RegWrite , MemWrite , IBeq , Ext_op;
+input [1:0] AluCtr ;
+input [31:0] IM , ReadData ;
+output [31:0] WriteData , ALU_O;
+output [29:0] pc ;
+wire [31:0] Ext ;
+wire [4:0] WriteReg ;
+wire [29:0] npc ;
+wire [31:0] RD1 , RD2 ;
+wire [31:0] result ;
+wire zero ;
+// next PC 
+Pc p_c(npc , clk , reset , pc) ;
+PC_count pc_c(pc , IM , IBeq , zero , npc) ;
+
+//GPR 
+gpr Gpr( clk , RegWrite , IM[25:21] , IM[20:16] , WriteReg , result , RD1 ,WriteData);
+Mux2_RegDst mux2_R( IM[20:16] , IM[15:11] , RegDst , WriteReg );
+Mux2_MemtoReg mux2_M( ALU_O , ReadData , MemtoReg , result);
+
+//ALU
+Mux2_AluSrc mux2_alu( WriteData , Ext , AluSrc , RD2 );
+ALU alu(clk , RD1 , RD2 , AluCtr , ALU_O , zero) ;
+
+//EXT
+ext EXT(IM[15:0], Ext_op , Ext) ;
+
+endmodule 

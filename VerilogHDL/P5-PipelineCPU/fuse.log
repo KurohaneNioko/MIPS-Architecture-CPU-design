@@ -1,0 +1,65 @@
+Running: E:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/tb_isim_beh.exe -prj F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/tb_beh.prj work.tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/StallUnit.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/Res_W.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/Res_M.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/Res_E.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/ForwardUnit.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/WriteBack.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/RF.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/PC.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/NPC.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/Memory.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/IM.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/HazardUnit.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/EXT.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/Execute.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/DM.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/Decode.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/ControlUnit_W.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/ControlUnit_M.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/ControlUnit_E.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/ControlUnit_D.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/CMP.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/ALU.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/mips.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/tb.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 105316 KB
+Fuse CPU Usage: 498 ms
+Compiling module PC
+Compiling module IM
+Compiling module Decode
+Compiling module ControlUnit_D
+Compiling module RF
+Compiling module NPC
+Compiling module CMP
+Compiling module EXT
+Compiling module Execute
+Compiling module ControlUnit_E
+Compiling module ALU
+Compiling module Memory
+Compiling module ControlUnit_M
+Compiling module DM
+Compiling module WriteBack
+Compiling module ControlUnit_W
+Compiling module StallUnit
+Compiling module ForwardUnit
+Compiling module ResE
+Compiling module ResM
+Compiling module ResW
+Compiling module HazardUnit
+Compiling module mips
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 14 sub-compilation(s) to finish...
+Compiled 25 Verilog Units
+Built simulation executable F:/ProgrammingProjects/VerilogHDL/P5-PipelineCPU/tb_isim_beh.exe
+Fuse Memory Usage: 111572 KB
+Fuse CPU Usage: 889 ms

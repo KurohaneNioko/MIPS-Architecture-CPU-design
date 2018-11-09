@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/Programming Projects/VHDL/TempTest/TestBench_isim_beh.exe" -prj "F:/Programming Projects/VHDL/TempTest/TestBench_beh.prj" "work.TestBench" "work.glbl" 

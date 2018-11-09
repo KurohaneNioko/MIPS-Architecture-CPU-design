@@ -1,0 +1,3 @@
+verilog isim_temp "OneBitAdder.v"
+verilog isim_temp "OneBit_Test.v"
+verilog isim_temp "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

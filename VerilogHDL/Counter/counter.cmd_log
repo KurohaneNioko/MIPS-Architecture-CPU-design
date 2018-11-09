@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -mt off counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -mt off counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -mt off counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -mt off counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -mt off counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -mt off counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/Counter/counter.xst" -ofn "F:/Programming Projects/VHDL/Counter/counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "counter.ngc" counter.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o counter_map.ncd counter.ngd counter.pcf 
+par -w -intstyle ise -ol high -mt off counter_map.ncd counter.ncd counter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml counter.twx counter.ncd -o counter.twr counter.pcf 

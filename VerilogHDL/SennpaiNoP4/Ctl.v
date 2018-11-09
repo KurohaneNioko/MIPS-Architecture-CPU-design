@@ -1,0 +1,19 @@
+module ctr ( clk , op , fun , Zero, PCWr , IRWr , WDSel , GPRSel , ExtOp , DMWr , NPCOp , ALUOp , BSel , GPRWr );
+input [5:0] op , fun ;
+input Zero , clk ;
+output PCWr , IRWr , DMWr , ALUOp , BSel , GPRWr;
+output [1:0] WDSel , GPRSel , ExtOp , NPCOp ;
+
+reg [2:0] fsm = 0 ;  //?????
+ 
+parameter  S0 = 'd0 , S1 = 'd1 , S2 = 'd2 , S3 = 'd3 , S4 = 'd4 , 
+           S5 = 'd5 , S6 = 'd6 , S7 = 'd7 , S8 = 'd8 , S9 = 'd9 ;
+           
+           ////////////////////////////////////////continue/////////////////
+always @ (posedge clk )
+    case (fsm)
+      S0  :begin
+        
+      end
+    endcase
+ endmodule

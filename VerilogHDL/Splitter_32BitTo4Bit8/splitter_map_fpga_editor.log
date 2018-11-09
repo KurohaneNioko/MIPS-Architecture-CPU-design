@@ -1,0 +1,67 @@
+#:C19    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   F:\Programming Projects\VHDL\Splitter_32BitTo4Bit8
+#Date/Time:
+#:T   Sun Nov 05 15:48:03 2017
+#------------------------------
+	#Reading splitter_map.ncd...
+	#Loading device for application Rf_Device from file '6slx150.nph' in environment E:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "splitter" is an NCD, version 3.2, device xc6slx150, package fgg676, speed -2
+	#Design creation date: 2017.11.05.07.46.12
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+unselect -all
+	#3
+select site 'SLICE_X98Y81'
+	#site "SLICE_X98Y81",  type = SLICEL  (RPM grid X241Y324)
+	#4
+unselect -all
+	#5
+select site 'SLICE_X84Y103'
+	#site "SLICE_X84Y103",  type = SLICEM  (RPM grid X205Y412)
+	#6
+unselect -all
+	#7
+select site 'SLICE_X52Y118'
+	#site "SLICE_X52Y118",  type = SLICEM  (RPM grid X129Y472)
+	#8
+unselect -all
+	#9
+select site 'SLICE_X18Y99'
+	#site "SLICE_X18Y99",  type = SLICEM  (RPM grid X49Y396)
+	#10
+unselect -all
+	#11
+select site 'SLICE_X18Y91'
+	#site "SLICE_X18Y91",  type = SLICEM  (RPM grid X49Y364)
+	#12
+unselect -all
+	#13
+select site 'SLICE_X22Y77'
+	#site "SLICE_X22Y77",  type = SLICEM  (RPM grid X57Y308)
+	#14
+unselect -all
+	#15
+select site 'OLOGIC_X0Y56'
+	#site "OLOGIC_X0Y56",  type = OLOGIC2  (RPM grid X3Y236)
+	#16
+unselect -all
+	#17
+unselect -all
+	#18
+unselect -all
+	#19
+unselect -all
+	#20
+unselect -all
+	#21
+unselect -all
+	#22
+select site 'SLICE_X64Y96'
+	#site "SLICE_X64Y96",  type = SLICEM  (RPM grid X153Y384)

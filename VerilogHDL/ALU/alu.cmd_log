@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/ALU/alu.xst" -ofn "F:/Programming Projects/VHDL/ALU/alu.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/ALU/alu.xst" -ofn "F:/Programming Projects/VHDL/ALU/alu.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/ALU/alu.xst" -ofn "F:/Programming Projects/VHDL/ALU/alu.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/ALU/alu.xst" -ofn "F:/Programming Projects/VHDL/ALU/alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "alu.ngc" alu.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o alu_map.ncd alu.ngd alu.pcf 
+par -w -intstyle ise -ol high -mt off alu_map.ncd alu.ncd alu.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml alu.twx alu.ncd -o alu.twr alu.pcf 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/ALU/alu.xst" -ofn "F:/Programming Projects/VHDL/ALU/alu.syr" 
+xst -intstyle ise -ifn "F:/Programming Projects/VHDL/ALU/alu.xst" -ofn "F:/Programming Projects/VHDL/ALU/alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx150-fgg676-2 "alu.ngc" alu.ngd  
+map -intstyle ise -p xc6slx150-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o alu_map.ncd alu.ngd alu.pcf 
+par -w -intstyle ise -ol high -mt off alu_map.ncd alu.ncd alu.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml alu.twx alu.ncd -o alu.twr alu.pcf 

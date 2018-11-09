@@ -1,0 +1,67 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/tb_isim_beh.exe" -prj "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/tb_beh.prj" "work.tb" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/StallUnit.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/Res_W.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/Res_M.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/Res_E.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/ForwardUnit.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/WriteBack.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/RF.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/PC.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/NPC.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/MultAndDiv.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/Memory.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/IM.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/HazardUnit.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/EXT.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/Execute.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/DM.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/Decode.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/ControlUnit_W.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/ControlUnit_M.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/ControlUnit_E.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/ControlUnit_D.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/CMP.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/ALU.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/mips.v" into library work
+Analyzing Verilog file "F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/tb.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 105508 KB
+Fuse CPU Usage: 561 ms
+Compiling module PC
+Compiling module IM
+Compiling module Decode
+Compiling module ControlUnit_D
+Compiling module RF
+Compiling module NPC
+Compiling module CMP
+Compiling module EXT
+Compiling module Execute
+Compiling module ControlUnit_E
+Compiling module ALU
+Compiling module MultAndDiv
+Compiling module Memory
+Compiling module ControlUnit_M
+Compiling module DM
+Compiling module WriteBack
+Compiling module ControlUnit_W
+Compiling module StallUnit
+Compiling module ForwardUnit
+Compiling module ResE
+Compiling module ResM
+Compiling module ResW
+Compiling module HazardUnit
+Compiling module mips
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 19 sub-compilation(s) to finish...
+Compiled 26 Verilog Units
+Built simulation executable F:/ProgrammingProjects/VerilogHDL/P6-PipeLineCPUPlus/tb_isim_beh.exe
+Fuse Memory Usage: 113428 KB
+Fuse CPU Usage: 1231 ms
